@@ -20,6 +20,6 @@ class Pokemon
   end
 
   def alter_hp(hp, db)
-    db.execute("ALTER TABLE pokemone (hp) VALUES (?);", hp)
+    db.execute("ALTER TABLE pokemon (hp) VALUES (?);", hp)
   end
 end
